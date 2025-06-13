@@ -15,7 +15,7 @@ const config = {
 		},
 		paths: {
 			// Allows custom base URL
-			base: process.env.NODE_ENV === "production" ? "" : "",
+			base: process.env.NODE_ENV === "production" ? "/stuco-website" : "",
 		},
 	}
 };
